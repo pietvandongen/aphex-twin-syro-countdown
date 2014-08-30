@@ -90,4 +90,12 @@ module.exports = function (grunt) {
         'jshint:build',
         'uglify:build'
     ]);
+
+    grunt.registerTask('test', [
+        'bower:install',
+        'less:build',
+        'csslint:build',
+        'browserify:build',
+        'jshint:build'
+    ]);
 };
