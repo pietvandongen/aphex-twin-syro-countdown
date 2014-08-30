@@ -1,0 +1,6 @@
+{
+    "name": "aphex-twin-syro-countdown",
+    "dependencies": {
+        "bootstrap": "3.2.0"
+    }
+}

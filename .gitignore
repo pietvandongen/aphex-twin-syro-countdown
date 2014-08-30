@@ -1,0 +1,20 @@
+# IntelliJ IDEA files
+.idea
+*.iml
+
+# Local folders
+etc
+var
+library
+code-prettify
+
+# Grunt files
+.grunt
+
+# Installed dependencies
+bower_components
+node_modules
+
+# Temporary files
+temp
+lib

@@ -1,0 +1,29 @@
+{
+    "name": "aphex-twin-syro-countdown",
+    "version": "1.0.0",
+    "contributors": [
+        {
+            "name": "Piet van Dongen",
+            "email": "piet@studio-donder.nl",
+            "url": "https://github.com/pietvandongen"
+        }
+    ],
+    "description": "Countdown timer to the release of Aphex Twin's new album, Syro.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pietvandongen/aphex-twin-syro-countdown.git"
+    },
+    "devDependencies": {
+        "grunt": "0.4.x",
+        "grunt-bower-task": "0.4.x",
+        "grunt-browserify": "2.1.x",
+        "grunt-contrib-copy": "0.5.x",
+        "grunt-contrib-csslint": "0.2.x",
+        "grunt-contrib-cssmin": "0.10.x",
+        "grunt-contrib-jshint": "0.10.x",
+        "grunt-contrib-less": "0.11.x",
+        "grunt-contrib-uglify": "0.5.x",
+        "grunt-contrib-watch": "0.6.x",
+        "jquery": "1.11.x"
+    }
+}
