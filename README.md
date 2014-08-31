@@ -1,6 +1,6 @@
 # aphex-twin-syro-countdown
 
-[![Build Status](https://travis-ci.org/pietvandongen/aphex-twin-syro-countdown.svg?branch=master)](https://travis-ci.org/pietvandongen/aphex-twin-syro-countdown)
+[![Build Status](https://travis-ci.org/pietvandongen/aphex-twin-syro-countdown.svg)](https://travis-ci.org/pietvandongen/aphex-twin-syro-countdown)
 
 Countdown timer to the release of Aphex Twin's new album, [Syro][1].
 
