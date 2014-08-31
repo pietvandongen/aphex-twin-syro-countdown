@@ -50,7 +50,7 @@ var getReleaseDate = function () {
 var getReleaseDateFormatted = function () {
     return releaseDate.getDate() +
         DATE_SEPARATOR +
-        releaseDate.getMonth() +
+        (releaseDate.getMonth() + 1) +
         DATE_SEPARATOR +
         releaseDate.getFullYear();
 };
