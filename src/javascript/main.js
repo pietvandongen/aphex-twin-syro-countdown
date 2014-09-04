@@ -83,7 +83,7 @@ var getReleaseDateFormatted = function () {
         releaseDate.getFullYear();
 };
 
-var getLastVisitDate = function() {
+var getLastVisitDate = function () {
     var lastVisitTimestamp = $.cookie("lastVisit");
 
     if (typeof lastVisitTimestamp == "undefined") {
@@ -94,7 +94,7 @@ var getLastVisitDate = function() {
     }
 };
 
-var saveCookie = function() {
+var saveCookie = function () {
     $.cookie("lastVisit", new Date().getTime(), {
         expires: COOKIE_EXPIRATION_DAYS
     });
@@ -176,7 +176,7 @@ var showRemainingTimeInDays = function () {
     );
 };
 
-var showTimePassedSinceLastVisitInMilliseconds = function() {
+var showTimePassedSinceLastVisitInMilliseconds = function () {
     $("#time-since-last-visit-in-milliseconds").text(getTimePassedSinceLastVisitInMilliseconds());
 };
 
